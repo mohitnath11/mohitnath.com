@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/letterm.jpg" type="image">
+    <title>Mohit Nath</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<body>
+    <div id="main">
+        <div class="nav">
+            <h1> <span>Mohit</span> Nath.</h1>
+            <div class="nav-part2">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificate">Certification</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <i onclick=shownavpart1() class="ri-menu-line"></i>
+            </div>
+            <!-- for  mobile view -->
+
+            <div class="navpart1">
+                <ul>
+                    <li onclick=hidenavbar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                                viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li onclick=hidenavbar()><a href="#main">Home</a></li>
+                    <li onclick=hidenavbar()><a href="#about_me">About me</a></li>
+                    <li onclick=hidenavbar()><a href="#projects">Projects</a></li>
+                    <li onclick=hidenavbar()><a href="#drawing">Skills</a></li>
+                    <li onclick=hidenavbar()><a href="#contact">Contact me</a></li>
+            </div>
+            </ul>
+            <!-- this is last line for mobile view-->
+        </div>
+        <div class="content">
+            <div class="left">
+                <h1>Hi, <br> I'm <span id="element"></span> </h1>
+                <p>Scroll Down for More :) </p>
+
+                <a href="#contact"><button id="homebtn">Contact me</button></a>
+            </div>
+            <div class="right">
+                <img src="img/mohit.png" id="homeimg" alt="">
+            </div>
+        </div>
+        <hr id="lines"><br>
+        <section id="about_me">
+
+            <div id="leafdiv">
+                <h1 id="leaf">About me</h1>
+            </div>
+
+            <div class="aboutme">
+                <div class="discription">
+
+                    <div class="dis">
+                        <h1>Hi,</h1>
+                        <p>“I am a BBA student with a strong interest in finance,
+                            accounting, and management, aiming to build a successful
+                            career by gaining practical experience, enhancing my skills,
+                            and contributing value to organizations through dedication,
+                            teamwork, and continuous learning.”</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="img/myphoto.jpg" id="infoimg" alt="My image">
+                </div>
+            </div>
+        </section>
+        <hr id="lines"><br>
+        <section id="skills">
+            <div id="leafdiv">
+                <h1 id="leaf">Skills</h1>
+            </div>
+
+            <div class="skills-container">
+                <!-- Technical Skills -->
+                <div class="skill-card tally">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Tally Prime</h3>
+                </div>
+
+                <div class="skill-card sql">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                </div>
+
+                <div class="skill-card powerbi">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Power BI</h3>
+                </div>
+
+                <div class="skill-card data">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Analysis</h3>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-card team">
+                    <i class="fas fa-users"></i>
+                    <h3>Team Management</h3>
+                </div>
+
+                
+                <div class="skill-card skill-photoshop">
+                     <i class="fa-solid fa-p"></i>
+                    <h4>Adobe Photoshop</h4>
+                </div>
+
+
+                <div class="skill-card powerpoint">
+                    <i class="fas fa-file-powerpoint"></i>
+                    <h3>Microsoft PowerPoint</h3>
+                </div>
+
+                <div class="skill-card excel">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Microsoft Excel</h3>
+                </div>
+        </section>
+        <hr id="lines skillLine"><br>
+
+
+        <section id="projects">
+            <div class="projectimg">
+                <img src="img/logo.png" id="noteswift" alt="NoteSwift">
+            </div>
+            <div class="projectdiscription">
+                <div class="projectdis">
+                    <p> <span id="elements">Peace Rehabilitation Center :</span> I completed a social internship
+                        at Peace Rehabilitation Center, where I contributed to community support and
+                        rehabilitation activities. This experience helped me develop empathy, communication,
+                        and teamwork skills while understanding the importance of social responsibility in
+                        professional growth. <br>Coodinator:- <span><a
+                                style="text-decoration: none;color: rgb(8, 102, 97);"
+                                href="https://bikashpandeya.com.np/">Sanjeet Singh</a></span>
+                    </p>
+                    <a href="https://www.peacerehab.org/"><button id="noteswiftbtn">PRC</button></a>
+                </div>
+            </div>
+        </section>
+        <hr id="lines">
+        <section id="certificate">
+            <div class="drawingbox">
+                <!-- <div class="img1"><img src="img/powerbi.jpg" id="bhuwan" alt="">
+                    <h1>Power BI</h1>
+                    <p>Mind Luster</p>
+                </div> -->
+                <div class="img2"> <img src="img/excelcertificate.jpg" id="darsan" alt="">
+                    <h1>Microsoft Excel</h1>
+                    <p>Coursera</p>
+                </div>
+                <div class="img3"> <img src="img/Tally.png" id="oldman" alt="">
+                    <h1>Tally Prime</h1>
+                    <p>UPCISS</p>
+                </div>
+
+            </div>
+            <a href="https://www.instagram.com/moheet_0770?igsh=YmR1aXp6YTh6czFq/"><button id="drawingbtn">See
+                    More</button></a>
+        </section>
+
+
+        <section id="contact">
+            <div class="container">
+                <div class="socialmedia">
+                    <div class="iconss">
+                        <h2>Contact Here</h2>
+                        <p>+91-7819901470</p>
+                        <p>+977-9815608182</p>
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=lqrsljcHjWPNBkbNbQLBMRqhKHSGtthxhzfBxHBsphFxHbbjDnKgQnzPwNkdkpCtJSttmxkhJJcSCrGTp"
+                            id="emailme">
+                            <p>mohitnath12344@gmail.com</p>
+                        </a>
+                        <a href="https://www.facebook.com/share/18w6qkjJEU/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/moheet_0770?igsh=YmR1aXp6YTh6czFq/"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/MohitNath185854"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/mohit-nath-bb1373329/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="message">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="myForm">
+                        <input type="hidden" name="access_key" value="396f040d-7bb9-4c4f-91b8-3a148b2848eb">
+                        <div class="messagebox">
+                            <input type="text" name="message" placeholder="enter your name" id="area">
+                            <input type="email" name="message" placeholder="xyz@gmail.com" id="email">
+                            <textarea placeholder="enter your message" name="message" id="text"></textarea>
+                            <button id="submit" value="submit">Submit</button>
+                            <button id="clear" onclick="clearForm()">Clear All</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footerdiv">
+                <div class="footerFlex">
+
+                    <div class="leftFotter">By Mohit Nath</div>
+
+                    <div class="middleFotter">
+                        <a href="https://www.facebook.com/share/18w6qkjJEU/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/moheet_0770?igsh=YmR1aXp6YTh6czFq/"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/MohitNath185854"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/mohit-nath-bb1373329/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="rightFotter">
+                        <p>“Turning ideas into knowledge,
+                            and knowledge into growth.”</p>
+                    </div>
+                </div>
+                <p id="copyright"><a href="">Copyright&#169;</a> Mohit Nath</p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Traveller.', 'Data Analyst.', 'Mohit Nath.'],
+        typeSpeed: 50,
+    });
+    function clearForm() {
+        document.getElementById("myForm").reset(); // Resets all form fields
+    }
+</script>
+<script>
+    function shownavpart1() {
+        const navpart1 = document.querySelector('.navpart1');
+        navpart1.style.display = 'flex';
+    }
+    function hidenavbar() {
+        const navpart1 = document.querySelector('.navpart1');
+        navpart1.style.display = 'none';
+    }
+
+</script>
+
+</html>
